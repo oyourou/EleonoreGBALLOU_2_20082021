@@ -2,13 +2,28 @@
     font-family: 'Raleway', sans-serif;
 }
 
-nav img{
-    margin-left: 0px;
-    height: 200px;
+body{
+    margin: 0px;
+    background-color: ivory;
 }
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
 
 nav ul{
     display: flex;
-    justify-content: flex-end;
+    list-style: none;
+}
+
+nav li{
+    margin: 0px 20px;
+    color: #deebff;
     
+}
+nav a{
+    text-decoration: none;
 }
