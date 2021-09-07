@@ -4,26 +4,43 @@
 
 body{
     margin: 0px;
-    background-color: ivory;
+    background-color: #deebff00;
 }
 
 nav{
+    
     display: flex;
     justify-content: space-between;
     align-items: stretch;
 }
 
+nav img{
+    margin: 40px 0 40px 40px;
+    background-image: #0065fc;
+    opacity: 0.8;
+}
+
 
 nav ul{
+    margin: 60px 60px;
     display: flex;
     list-style: none;
 }
 
 nav li{
-    margin: 0px 20px;
-    color: #deebff;
+    margin: 0px 40px;
+    font-size: small;
     
 }
 nav a{
     text-decoration: none;
+    color: #0065fc;
 }
+
+h1{
+    margin: 10px 0 0 40px;
+    font-size: 18px;
+}
+
+
+
