@@ -42,11 +42,16 @@ h1{
     font-size: 18px;
 }
 
-.rêve{
-    text-align: center;
+p.rêve{
     margin-top: 20px;
     margin-right: 0px;
     margin-bottom: 0;
     margin-left: 40px;
+}
+
+.conditions{
+    display: flex;
+    flex-direction: row;
+    
 }
 
