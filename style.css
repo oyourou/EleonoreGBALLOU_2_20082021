@@ -29,7 +29,7 @@ nav ul{
 
 nav li{
     margin: 0px 40px;
-    font-size: small;
+    font-size: 14px;
     
 }
 nav a{
@@ -38,20 +38,38 @@ nav a{
 }
 
 h1{
-    margin: 10px 0 0 40px;
+    margin: 0px 0 0 40px; 
     font-size: 18px;
 }
 
-p.rêve{
-    margin-top: 20px;
-    margin-right: 0px;
-    margin-bottom: 0;
-    margin-left: 40px;
+.centre{
+    margin: 5px 0 20px 40px;
+    font-size: 14px;
+    
 }
 
-.conditions{
-    display: flex;
-    flex-direction: row;
+.Ville{
+    margin: 0 0 0 40px;
     
+}
+
+.fa-map-marker-alt{
+    background-color: #f2f2f2;
+    border-style: none;
+    padding: 7px;
+    border-radius: 5px 0 0 5px;
+    font-size: 7px;
+}
+
+.Ville input{
+    opacity: 0.5;
+    margin: 5px 0 0 0.5px;
+}
+
+footer.Conditions{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 30px 30px 40px;
+
 }
 
