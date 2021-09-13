@@ -3,7 +3,7 @@
 }
 
 body{
-    margin: 0px;
+    
     background-color: #deebff00;
 }
 
@@ -36,10 +36,10 @@ nav a{
     text-decoration: none;
     color: #0065fc;
 }
-
+/* main */
 h1{
     margin: 0px 0 0 40px; 
-    font-size: 18px;
+    font-size: 17px;
 }
 
 .centre{
@@ -48,28 +48,77 @@ h1{
     
 }
 
-.Ville{
-    margin: 0 0 0 40px;
-    
+.Recherche{
+    display: flex;
+    justify-content: inherit;
+    width: 20px;
+    border: 30px;
+    padding: 10px;
+    margin: 0px;
+
+
 }
 
-.fa-map-marker-alt{
-    background-color: #f2f2f2;
-    border-style: none;
-    padding: 7px;
-    border-radius: 5px 0 0 5px;
-    font-size: 7px;
-}
-
-.Ville input{
-    opacity: 0.5;
-    margin: 5px 0 0 0.5px;
-}
-
-footer.Conditions{
+.Details{
     display: flex;
     justify-content: space-between;
-    margin: 20px 30px 30px 40px;
-
 }
+
+.Finance{
+    display: flex;
+    align-items: baseline;
+    align-content: space-around;
+}
+
+.Finance{
+    position: relative;
+    border: 2px solid;
+    width: 110px;px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.Famille{
+    display: flex;
+    align-items: baseline;
+}
+
+.Couple{
+    display: flex;
+    align-items: baseline;
+}
+
+.Animaux{
+    display: flex;
+    align-items: baseline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+footer{
+    background-color: #f2f2f2;
+    font-size: 16px;
+    margin: 0px ;
+    padding-right: 100px;
+    padding-left: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
 
