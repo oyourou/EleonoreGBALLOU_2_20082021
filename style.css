@@ -6,7 +6,7 @@ body{
     
     background-color: #deebff00;
 }
-
+/* header */
 nav{
     
     display: flex;
@@ -36,7 +36,7 @@ nav a{
     text-decoration: none;
     color: #0065fc;
 }
-/* main */
+
 h1{
     margin: 0px 0 0 40px; 
     font-size: 17px;
@@ -214,8 +214,26 @@ h1{
 
 .Logements p{
     font-size: 12px;
-    margi
+    margin: 10px;
 }
+
+/* main */
+h2{
+    font-size: 17px;
+    margin: 40px;
+}
+.Marseille{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+    
+
+
+
+
 
 
     
